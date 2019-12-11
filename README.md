@@ -11,3 +11,14 @@ $gcloud config set compute/zone us-west1-c
 
 #Install Client Tools
 brew install cfssl
+
+### OS X
+
+```
+curl -o cfssl https://storage.googleapis.com/kubernetes-the-hard-way/cfssl/darwin/cfssl
+curl -o cfssljson https://storage.googleapis.com/kubernetes-the-hard-way/cfssl/darwin/cfssljson
+```
+
+```
+chmod +x cfssl cfssljson
+```
